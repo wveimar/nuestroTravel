@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>NuestroTravel | Sabor de Región - Marinilla</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo" id="nav-logo">
+  <a href="#" data-translate="nav.logo">Nuestro<span>Travel</span>.</a>
+</div>
+<ul class="nav__links" id="nav-links">
+  <li><a href="#" data-translate="nav.destinations">Destinos</a></li>
+  <li><a href="#" data-translate="nav.packages">Paquetes</a></li>
+  <li><a href="#" data-translate="nav.experiences">Experiencias</a></li>
+  <li><a href="#" data-translate="nav.about">Nosotros</a></li>
+  <li><a href="#" data-translate="nav.contact">Contacto</a></li>
+</ul>
+<div class="nav__btns">
+  <button class="btn sign__in" data-translate="nav.contactBtn" onclick="window.open('https://wa.me/573245132871', '_blank')">
+    <i class="ri-whatsapp-line"></i> Contáctanos
+  </button>
+  <button id="translate-btn" class="btn" data-translate="nav.translateBtn">Traducir</button>
+</div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+   <div class="header__image__card header__image__card-1" data-translate="services.service1">
+  <span><i class="ri-home-4-line"></i></span>
+  Alojamientos Rurales
+</div>
+<div class="header__image__card header__image__card-2" data-translate="services.service2">
+  <span><i class="ri-restaurant-line"></i></span>
+  Gastronomía Local
+</div>
+<div class="header__image__card header__image__card-3" data-translate="services.service3">
+  <span><i class="ri-leaf-line"></i></span>
+  Tours Agroturísticos
+</div>
+<div class="header__image__card header__image__card-4" data-translate="services.service4">
+  <span><i class="ri-group-line"></i></span>
+  Guías Expertos
+</div>
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>¡VEN A MARINILLA!<br />DISFRUTA EL <span>SABOR</span><br /> DE NUESTRA REGIÓN</h1>
+        <p data-translate="header.description">
+          Descubre la auténtica esencia del campo antioqueño. Vive experiencias únicas entre cafetales, 
+          tradiciones campesinas y paisajes que enamoran. Conéctate con la calidez de nuestra gente 
+          y los sabores que hacen inolvidable a Marinilla.
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>¿Qué deseas hacer?</h5>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="Ej: Tour cafetero" />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Fecha</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="Ej: 20 Agosto 2024" />
+              </div>
+            </div>
+          </div>
+          
+          <button onclick="window.open('https://wa.me/573245132871', '_blank')">Buscar</button>
+        </form>
+        <div class="bar" data-translate="footer.copyright">
+          © 2024 NuestroTravel - Turismo Rural Marinilla. Todos los derechos reservados.
+        </div>
+      </div>
+    </header>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script type="module" src="js/translations.js"></script>
+<script type="module" src="js/language-switcher.js"></script>
+  </body>
+</html>
